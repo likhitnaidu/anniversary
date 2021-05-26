@@ -8,33 +8,6 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
     text-align: center;
 }
 
-/* nav{
-    text-align: right;
-    width: 100%;
-    height: 50px;
-    background-color: #0005;
-    line-height: 50px;
-}
-nav ul{
-    text-align: right;
-   
-    margin: 30px;
-}
-nav ul li{
-    text-align: center;
-    margin: 20px 10px;
-    display: inline-block;
-    transition: 0.7s all;
-}
-nav ul li :hover{
-    background-color:crimson;
-}
-nav ul li a{
-    text-align: center;
-    text-decoration:none;
-    color: #fff;
-    padding: 3px;
-} */
 .side{
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
