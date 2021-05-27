@@ -23,7 +23,10 @@ nav ul li{
   transition: 0.7s all;
 }
 nav ul li:hover{
-  background-color:#088;
+  background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 nav ul li a{
   text-decoration: none;
@@ -49,6 +52,6 @@ nav ul li a{
    color:#89F104;
 }
 img{
-    height:130px;
-    widhth:130px;
+    height:auto;
+    widhth:auto;
 }
