@@ -6,7 +6,7 @@ showNotes();
 let addBtn = document.getElementById("addBtn");
 addBtn.addEventListener("click", function(e) {
   let addTxt = document.getElementById("addTxt");
-  let notes = Storage.getItem("notes");
+  let notes = localStorage.getItem("notes");
   if (notes == null) {
     notesObj = [];
   } else {
